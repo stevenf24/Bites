@@ -27,17 +27,18 @@ body, html {
 
 .topnav {
    list-style-type: none;
-   margin: 0;
+   margin: 10;
    padding: 0;
    overflow: hidden;
    background-color: MediumSeaGreen;
 }
 
-.topnav li {
+/*.topnav li {
    float: left;
-}
+}*/
 
 .topnav li {
+   float: left;
    display: block;
    color: white;
    text-align: center;
