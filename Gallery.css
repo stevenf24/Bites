@@ -62,19 +62,34 @@ p.about-title {
    position: fixed;
    top: 65%;
    left: 30%;
+   display: inline-flex;
+   padding: 20px;
+   border: 5px solid blue;
+}
+
+.description.text {
    display: inline-block;
+   padding: 10px;
+   border: 10px;
+   margin: 10px;
 }
 
 .description.item {
    position: fixed;
    text-align: center;
    display: inline-block;
+   border: 2px solid red;
+   padding: 10px;
+   
 }
 
 .description.price {
    position: fixed;
    text-align: center;
    display: inline-block;
+   border: 2px solid red;
+   padding: 10px;
+   margin: 10px;
 }
 
 p.description {
