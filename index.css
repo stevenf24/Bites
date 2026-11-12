@@ -71,6 +71,7 @@ p.description {
    bottom: 0;
    left: 0;
    position: fixed;
+   background-attachment: scroll;
    
 }
 

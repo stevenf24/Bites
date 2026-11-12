@@ -79,7 +79,7 @@ h1 {
    bottom: 0;
    left: 0;
    position: relative;
-
+   background-attachment: scroll;
    
 }
 
