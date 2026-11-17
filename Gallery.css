@@ -6,9 +6,9 @@ body, html {
 .hero-image {
    height: 50%;
 	
-   background-position: center;
+   /*background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover;*/
    position: relative;
 }
 
@@ -29,23 +29,21 @@ body, html {
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: #61616b;
+   background-color: mediumseagreen;
+}
+
+.topnav a {
+   text-decoration: none;
 }
 
 .topnav li {
    float: left;
-}
-
-.topnav li {
-   display: block;
-   color: MediumSeaGreen;
    text-align: center;
    padding: 14px 16px;
-   text-decoration: none;
 }
 
 .topnav li:hover {
-   background-color: #111;
+   background-color: whitesmoke;
 }
 
 .about {
@@ -58,40 +56,6 @@ p.about-title {
    text-align: center;
 }
 
-.description {
-   position: fixed;
-   top: 65%;
-   left: 30%;
-   display: inline-flex;
-   padding: 20px;
-   border: 5px solid blue;
-}
-
-.description.text {
-   display: inline-block;
-   padding: 10px;
-   border: 10px;
-   margin: 10px;
-}
-
-.description.item {
-   position: fixed;
-   text-align: center;
-   display: inline-block;
-   border: 2px solid red;
-   padding: 10px;
-   
-}
-
-.description.price {
-   position: fixed;
-   text-align: center;
-   display: inline-block;
-   border: 2px solid red;
-   padding: 10px;
-   margin: 10px;
-}
-
 p.description {
    color: white;
 }
@@ -99,21 +63,20 @@ p.description {
 .footer {
    width: 100%;
    background-color: MediumSeaGreen;
-   color: white;
-   bottom: 0;
+   color: whitesmoke;
    left: 0;
+   bottom: 0;
    position: fixed;
-   background-attachment: scroll;
 }
 
 p.time-footer {
    font-weight: bold;
    padding: 10px;
-   color: white;
+   color: whitesmoke;
 }
 
 .times {
-   position: aboslute;
+   position: sticky;
    float: left;
    list-style-type: none;
    overflow: hidden;
@@ -199,4 +162,24 @@ p.time-footer {
 @keyframes fade {
    from {opacity: .4}
    to {opacity: 1}
+}
+
+.description {
+   display: flex;
+   border: 3px solid blue;
+}
+
+.description-item {
+   margin: 10px;
+   padding: 10px;
+   border: 3px solid blue;
+   width: 40%;
+}
+
+.description-price {
+   margin: 10px;
+   padding: 10px;
+   padding-right: auto;
+   border: 3px solid blue;
+   width: 40%;
 }
