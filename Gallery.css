@@ -12,10 +12,11 @@ body, html {
    position: relative;
 }
 
-.hero-text {
+.title-text {
    text-align: start;
    position: relative;
-   top: 20%;
+   margin-top: 10px;
+   margin-bottom: 10px;
    left: 50%;
    transform: translate(-50%, -50%);
    color: white;
@@ -30,6 +31,7 @@ body, html {
    padding: 0;
    overflow: hidden;
    background-color: mediumseagreen;
+   float: left;
 }
 
 .topnav a {
@@ -39,7 +41,7 @@ body, html {
 .topnav li {
    float: left;
    text-align: center;
-   padding: 14px 16px;
+   padding: 14px;
 }
 
 .topnav li:hover {
