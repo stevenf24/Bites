@@ -3,15 +3,6 @@ body, html {
    background-color: #adadad;
 }
 
-.hero-image {
-   height: 50%;
-	
-   /*background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;*/
-   position: relative;
-}
-
 .title-text {
    text-align: start;
    position: relative;
@@ -93,10 +84,19 @@ p.time-footer {
    max-width: 1000px;
    position: relative;
    margin: auto;
+   position: relative;
+
+}
+
+.dot {
+   position: static;
+   max-width: 1000px;
 }
 
 .slides {
+   max-width: 1000px;
    display: none;
+   position: static;
 }
 
 .prev, .next {
