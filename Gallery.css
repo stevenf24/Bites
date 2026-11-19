@@ -53,6 +53,7 @@ p.description {
    color: white;
 }
 
+/* footer styling*/
 .footer {
    width: 100%;
    background-color: MediumSeaGreen;
@@ -78,14 +79,28 @@ p.time-footer {
    padding: 10px;
 }
 
+/* 
+*
+*
+      Slideshow styling
+*
+*/
 * {box-sizing:border-box}
+
+.showcase {
+   display: flex;
+   clear: both;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+
+}
 
 .slideshow {
    max-width: 1000px;
    position: relative;
-   margin: auto;
+   width: 100%;
    position: relative;
-
 }
 
 .dot {
@@ -97,6 +112,28 @@ p.time-footer {
    max-width: 1000px;
    display: none;
    position: static;
+}
+
+.description {
+   display: flex;
+   border: 3px solid blue;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.description-item {
+   margin: 10px;
+   padding: 10px;
+   border: 3px solid blue;
+   width: 40%;
+}
+
+.description-price {
+   margin: 10px;
+   padding: 10px;
+   padding-right: auto;
+   border: 3px solid blue;
+   width: 40%;
 }
 
 .prev, .next {
@@ -164,24 +201,4 @@ p.time-footer {
 @keyframes fade {
    from {opacity: .4}
    to {opacity: 1}
-}
-
-.description {
-   display: flex;
-   border: 3px solid blue;
-}
-
-.description-item {
-   margin: 10px;
-   padding: 10px;
-   border: 3px solid blue;
-   width: 40%;
-}
-
-.description-price {
-   margin: 10px;
-   padding: 10px;
-   padding-right: auto;
-   border: 3px solid blue;
-   width: 40%;
 }

@@ -8,7 +8,7 @@
    <div class="title-text">
          <h1> Bites </h1>
    </div>
-
+   <!--Navigation menu-->
    <div class="topnav">
       <li class="active"> <a href="index.html"> Home </a> </li>
       <li> <a href="Menu.html"> Menu </a> </li>
@@ -17,7 +17,8 @@
       <li> <a href="login.html">Log In / Sign Up</a></li>
    </div>
 
-   <div>
+   <!--Slideshow showcase-->
+   <div class="showcase">
       <!-- Slideshow to show off various items on the menu-->
       <div class="slideshow">
          <div class="slides fade">
@@ -25,7 +26,7 @@
             <img src="beef-burger.jpg" style="width:100%">
             <div class="text"> Burger </div>
          </div>
-
+         
          <div class="slides fade">
             <div class="imageText"> 2/3 </div>
             <img src="MP_-Barbecue-Ribs-jfch-superJumbo.jpg" style="width:100%">
@@ -37,22 +38,25 @@
             <img src="csm_1111-recipe-page-Herby-Soy-Marinated-Steaks_desktop_c51d610179.jpg" style="width:100%">
             <div class="text"> Steak </div>
          </div>
-
-         <a class="prev" onclick="plusSlides(-1)"> &#10094; </a>
+         
+      <!--Buttons to navigate-->
+         <a class="prev" onclick="plusSlides(1)"> &#10094; </a>
          <a class="next" onclick="plusSlides"> &#10095; </a>
          </div>
 
+         <!--Dots to navigate-->
          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide1"></span>
-            <span class="dot" onclick="currentSlide2"></span>
-            <span class="dot" onclick="currentSlide3"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
          </div>
 
+         <!--Desccription-->
          <div class="description"> 
             <div class="description-item">
             <p>Item Name: </p>
          </div>
-
+         <!--Item's Price-->
          <div class="description-price">
             <p>Price: </p>
          </div>
