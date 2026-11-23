@@ -38,6 +38,8 @@ body, html {
    float: left;
    text-align: center;
    padding: 14px;
+   font-family: 'Comfortaa', sans-serif;
+   font-weight: lighter;
 }
 
 .topnav li:hover {
@@ -98,8 +100,9 @@ p.time-footer {
    clear: both;
    flex-direction: column;
    align-items: center;
-   margin: auto;
-
+   margin: 30px;
+   justify-content: center;
+   height: 500px;
 }
 
 .slideshow {
@@ -122,24 +125,26 @@ p.time-footer {
 
 .description {
    display: flex;
-   border: 3px solid blue;
+   border: 2px solid blue;
    justify-content: space-between;
-   width: 100%;
+   height: 50%;
+   text-align: center;
+   overflow: hidden;
 }
 
 .description-item {
-   margin: 10px;
+   margin: 20px;
    padding: 10px;
-   border: 3px solid blue;
-   width: 40%;
+   border: 2px solid blue;
+   width: 20%;
 }
 
 .description-price {
-   margin: 10px;
+   margin: 20px;
    padding: 10px;
    padding-right: auto;
-   border: 3px solid blue;
-   width: 40%;
+   border: 2px solid blue;
+   width: 20%;
 }
 
 /* 
