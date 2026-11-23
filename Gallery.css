@@ -1,8 +1,10 @@
+/* Styles the height and background color for the overall html and body elements */
 body, html {
    height: 100%;
    background-color: #adadad;
 }
 
+/* Sets the title at the top left of the page */
 .title-text {
    text-align: start;
    position: relative;
@@ -16,6 +18,9 @@ body, html {
    font-size: 10px;
 }
 
+/* Styles the navigation menu.
+   Currently set at the top left side of the page.
+*/
 .topnav {
    list-style-type: none;
    margin: 0;
@@ -44,7 +49,7 @@ body, html {
 }
 
 p.about-title {
-   font-weight: bold;
+   font-weight: initial;
    color: white;
    text-align: center;
 }
@@ -53,7 +58,11 @@ p.description {
    color: white;
 }
 
-/* footer styling*/
+/* 
+   Styles the footer.
+   Current set at the bottom of the page, and only appears after scrolling
+   down.
+*/
 .footer {
    width: 100%;
    background-color: MediumSeaGreen;
@@ -80,10 +89,7 @@ p.time-footer {
 }
 
 /* 
-*
-*
-      Slideshow styling
-*
+   Slideshow styling
 */
 * {box-sizing:border-box}
 
@@ -136,6 +142,9 @@ p.time-footer {
    width: 40%;
 }
 
+/* 
+   Styles the previous and next buttons of the slideshow 
+*/
 .prev, .next {
    cursor: pointer;
    position: absolute;
